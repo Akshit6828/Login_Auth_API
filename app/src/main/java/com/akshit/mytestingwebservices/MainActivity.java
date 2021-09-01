@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         e6=findViewById(R.id.e6);
         e7=findViewById(R.id.e7);
         b1=findViewById(R.id.button);
-        requestQueue= Volley.newRequestQueue(this);//request kaha ca bhjene hai. So abh volley ke trough hm request bhej skte hai.
+        requestQueue= Volley.newRequestQueue(this);// Points from where to send the request. So we are sending request through Volley.
      b1.setOnClickListener(new View.OnClickListener() {
          @Override
          public void onClick(View v) {
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
              pd.setMessage("Please Wait");
              pd.show();
              gender=e3.getText().toString();
-             //now we want to send whole data with
+             //now we want to send whole data with the following code below.
              StringRequest request=new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
                  @Override
                  public void onResponse(String response) {//this response will come by PHP Echo_Json from server
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
                      return values;
                  }
              };
-             requestQueue.add(request);//This will send data to server. Very Important
+             requestQueue.add(request);//This will send data to server. Very Important Line!!!
 
          }
      });
