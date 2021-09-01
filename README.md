@@ -6,4 +6,4 @@ This repository contains the source code of REST API which is made in PHP and im
 
 ##### To see the API Code(s), click [here][API].
 
-[API]:(Login_Auth_API/API)
+[API]:(https://github.com/Akshit6828/Login_Auth_API/tree/master/API)
