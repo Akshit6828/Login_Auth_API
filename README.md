@@ -8,7 +8,7 @@ This repository contains the source code of REST API for Login Authentication wh
 ##### To see the API implementation in Android App, Click [here][Android]
 
 
-### Function of this API:
+### Function of this API in this project:
 1. Registered the new users and stores the user entered in a database.
 2. Upon login checks the existence of the user in the database.
 3. If the user is found in the database _(via API and not using Database Methods)_ , it enables the login gateway and lets the user access its profile.
