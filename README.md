@@ -14,7 +14,10 @@ This repository contains the source code of REST API for Login Authentication wh
 3. If the user is found in the database _(via API and not using Database Methods)_ , it enables the login gateway and lets the user access its profile.
 4. If the user is not found, it won’t give access to the login gateway and takes the user to the registration page.
 
-Formation of API: 
+### Formation of API: 
+![Login_Auth API Flow](https://user-images.githubusercontent.com/57808363/133820062-a8254e58-999b-41ec-a6aa-53cd39633706.png)
+
+
 
 [API]:https://github.com/Akshit6828/Login_Auth_API/tree/master/API
 [Android]:https://github.com/Akshit6828/Login_Auth_API/blob/master/app/src/main/java/com/akshit/mytestingwebservices/MainActivity.java
